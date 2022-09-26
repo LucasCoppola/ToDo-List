@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    border: 5px solid ;
+    padding: 10px;
+}
+
+#buttons {
+    display: inline;
+    
+}
+#items{
+    position: relative;
+}
+
+#submit-btn, #clear-btn{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 3px 10px;
+}
+
+#submit-btn:hover, #clear-btn:hover{
+    background-color: green;
+    color: #fff;
+}
+
+#input-el{
+    border-radius: 7px;
+    padding: 3px 10px;
+}
+.task{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    left: 37%;
+    margin-top: 10px;
+}
+.task li{
+    margin: 0px 20px;
+    font-size: 1.1rem;
+}
+.delete-btn{
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+}
+.delete-btn:hover{
+    background-color: red;
+    border: 1px solid #fff;
+    color: #fff;
+}
